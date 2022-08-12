@@ -1,0 +1,14 @@
+#calculator {
+  background-color: black;
+  padding-bottom: 12px;
+  width: 320px;
+}
+
+#calculator input {
+  margin: 12px 0 4px 0;
+}
+
+.button {
+  cursor: pointer;
+  line-height: 70px;
+}
