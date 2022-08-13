@@ -1,4 +1,3 @@
-import { getByDisplayValue } from "@testing-library/react";
 import { useState } from "react";
 import "./App.css";
 
@@ -60,7 +59,7 @@ function App() {
           return;
       }
     }
-  }
+  };
 
   return (
     <div className="mx-auto vh-100 w-100 d-flex align-items-center justify-content-center">
@@ -249,7 +248,9 @@ function App() {
             <div className="col-3">
               <div
                 className="button fs-5 fw-bold text-bg-dark text-center rounded-circle"
-                onclick="hello()"
+                onClick={() => {
+                  getNumber(".");
+                }}
               >
                 .
               </div>
